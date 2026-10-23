@@ -1,0 +1,39 @@
+{
+  "id": "1efe684c-0a00-458d-abc6-36d4f63dcc37",
+  "name": "Primus-Comptoir-PTE",
+  "publisher": "Primus Soft",
+  "version": "28.2.0.17",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+        {
+            "id": "493b3dfd-cd66-4444-a2ee-be251b731d2b",
+            "publisher": "Primus Soft",
+            "name": "Primus-Wine PTE",
+            "version": "28.2.0.0"
+        }
+  ],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 83800,
+      "to": 83849
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MARRENON_BC_RECETTE",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "MARRENON_BC_RECETTE",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "ForceSync",
+            "dependencyPublishingOption": "Default",
+            "useMcpServerForDebugging": true,
+            "tenant": "d2b68b6e-9e84-4137-907c-8149a06194ed"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "MARRENON_BC_RECETTE",
+            "sessionId": 49866,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "d2b68b6e-9e84-4137-907c-8149a06194ed"
+        }
+    ]
+}

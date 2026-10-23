@@ -1,0 +1,26 @@
+resources:
+  repositories:
+  - repository: PipelineTemplates
+    type: git
+    endpoint: 'isatech-DevOps - DevOps Pipelines'
+    name: DevOps Pipelines/DevOps Pipelines
+    ref: refs/heads/main
+
+trigger:
+  branches:
+    include:
+      - main
+      - master
+      - release-candidate
+  paths:
+    include:
+      - AppMain
+      - AppTest
+
+stages:
+
+  - template: /BC_2025/templates/1_stages/BC-Compile_PTE.yml@PipelineTemplates
+    parameters:
+      artifactType: 'Sandbox'
+      artifactVersion: ''
+      artifactSelect: 'Daily'

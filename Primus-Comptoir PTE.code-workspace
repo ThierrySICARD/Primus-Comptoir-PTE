@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "AppMain"
+		},
+		{
+			"path": "Script"
+		}
+	],
+	"settings": {
+		"al.packageCachePath": "..\\.alpackages",
+		"al.enableCodeAnalysis": false,
+		"al.backgroundCodeAnalysis": "Project",
+		"al.codeAnalyzers": [
+			"${CodeCop}",
+			"${PerTenantExtensionCop}",
+			"${AppSourceCop}",
+			"${analyzerFolder}BusinessCentral.LinterCop.dll"
+		],
+		"alOutline.codeCleanupActions": [
+			"AddMissingParentheses",
+			"MakeFlowFieldsReadOnly",
+			"ConvertObjectIdsToNames",
+			"FixIdentifiersCase",
+			"FixKeywordsCase",
+			"FormatDocument"
+		]
+	}
+}

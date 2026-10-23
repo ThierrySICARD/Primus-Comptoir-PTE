@@ -1,0 +1,8 @@
+.snapshots
+.altestrunner
+*.app
+*Autre/
+launch.json
+rad.json
+
+
